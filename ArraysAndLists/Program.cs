@@ -38,17 +38,16 @@ namespace ArraysAndLists
                     odds.Add(i);
                 }
             }
-            Console.WriteLine("evens");
+            
 
-            foreach (int i in evens)
+            foreach (int num in evens)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"{num} is even");
             }
-            Console.WriteLine("Odds");
 
-            for (int i = 0; i < odds.Count; i++)
+            foreach(int num in odds)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"{num} is odd");
             }
             
 
